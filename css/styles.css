@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
+
+
+body {
+    background-color: #f2efe8;
+}
+
+#topRow {
+    margin-top: 50px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+h1 {
+    color: #929786;
+    font-size: 1em;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    color: #929786;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 25px;
+}
+
+a {
+    color: #929786;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+#mainRow {
+    margin-top: 150px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: center;
+    font-size: 170px;
+}
+
+#bottomBar {
+    margin-top: 250px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+    align-content: center;
+}
+
+.git {
+    margin: 0 5% 0 0;
+}
+
+.linked {
+    margin: 0 0 0 5%;
+}
