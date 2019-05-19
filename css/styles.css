@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
-
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway|PT+Sans+Narrow');
 
 body {
-    background-color: #f2efe8;
+    background-color: #ffff;
 }
 
 
 #topRow {
+    cursor: default;
     margin-top: 50px;
     display: flex;
 	flex-direction: column;
@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-    color: #929786;
+    color: #161615;
     font-size: 1em;
     font-weight: 800;
     text-transform: uppercase;
@@ -25,16 +25,15 @@ h1 {
 }
 
 p {
-    color: #929786;
-    font-style: italic;
+    color: #161615;
     font-family: 'Raleway', sans-serif;
     margin-top: 25px;
 }
 
 a {
-    color: #929786;
+    color: #161615;
     text-decoration: none;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 #mainRow {
@@ -86,8 +85,30 @@ a {
 
 .git {
     margin: 0 5% 0 0;
+    transition: all 0.3s ease;
+}
+
+.git:hover {
+    letter-spacing: 0.1em;
+    transition: all 1s ease-out;
 }
 
 .linked {
     margin: 0 0 0 5%;
+    transition: all 0.3s ease;
+}
+
+.linked:hover {
+    letter-spacing: 0.1em;
+    transition: all 1s ease-out;
+}
+
+#copyright {
+    cursor: default;
+    margin-top: 100px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+    align-content: center;
 }
