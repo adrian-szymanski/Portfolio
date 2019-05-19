@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway|PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway|PT+Sans+Narrow|Hammersmith+One');
 
 body {
     background-color: #ffff;
@@ -47,6 +47,19 @@ a {
     font-size: 170px;
 }
 
+.dot {
+    cursor: default;    
+    font-size: 14px;
+    transform: rotate(90deg);
+    transform-origin: center center;
+    color: #161615;
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 115px;
+    margin-left: -55px;
+    letter-spacing: 3px;
+}
+
 .about {
     transition: all 0.3s ease;
 }
@@ -75,7 +88,7 @@ a {
 }
 
 #bottomBar {
-    margin-top: 250px;
+    margin-top: 160px;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -105,7 +118,7 @@ a {
 
 #copyright {
     cursor: default;
-    margin-top: 100px;
+    margin-top: 200px;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
