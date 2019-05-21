@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
 
+/* Basic page styling */
+
 body {
     background-color: #000000f5;
 }
+
+/* Top container styling */
 
 #topRow {
     cursor: default;
@@ -14,6 +18,8 @@ body {
 	align-items: center;
 	align-content: center;
 }
+
+/* Text content styling (fonts, colors, size) */
 
 h1 {
     color: rgba(255, 255, 255, 0.945);
@@ -34,6 +40,8 @@ a {
     text-decoration: none;
     font-family: 'PT Sans Narrow', sans-serif;
 }
+
+/* Main container and its content styling */
 
 #mainRow {
     margin-top: 150px;
@@ -86,6 +94,8 @@ a {
     transition: all 1s ease-out;
 }
 
+/* Bottom container styling */
+
 #bottomBar {
     margin-top: 160px;
     display: flex;
@@ -114,6 +124,8 @@ a {
     letter-spacing: 0.1em;
     transition: all 1s ease-out;
 }
+
+/* Copyright container styling */
 
 #copyright {
     cursor: default;
