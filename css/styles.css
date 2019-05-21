@@ -3,8 +3,21 @@
 /* Basic page styling */
 
 body {
-    background-color: #000000f5;
+    background-color: #242424;
 }
+
+/* Shape styling */
+
+#parallelogram {
+    margin-left: 680px;
+    width: 1000px;
+    height: 150px;
+    position: absolute;
+    bottom: 380px;
+    opacity: 0%;
+    z-index: -1;
+    background: #f1d628;
+  }
 
 /* Top container styling */
 

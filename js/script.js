@@ -13,3 +13,7 @@ $(document).ready(function () {
   $(document).ready(function () {
     $('#copyright').css('display', 'none').fadeIn(3000);
   });
+
+  $(document).ready(function () {
+    $('#parallelogram').css('display', 'none').fadeIn(8000);
+  });
