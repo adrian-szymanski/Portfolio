@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway|PT+Sans+Narrow|Hammersmith+One');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
 
 body {
-    background-color: #ffff;
+    background-color: #000000f5;
 }
-
 
 #topRow {
     cursor: default;
@@ -17,21 +16,21 @@ body {
 }
 
 h1 {
-    color: #161615;
+    color: rgba(255, 255, 255, 0.945);
     font-size: 1em;
     font-weight: 800;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 p {
-    color: #161615;
-    font-family: 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 0.945);
+    font-family: 'PT Sans Narrow', sans-serif;
     margin-top: 25px;
 }
 
 a {
-    color: #161615;
+    color: rgba(255, 255, 255, 0.945);
     text-decoration: none;
     font-family: 'PT Sans Narrow', sans-serif;
 }
@@ -47,15 +46,15 @@ a {
     font-size: 170px;
 }
 
-.dot {
+.number {
     cursor: default;    
     font-size: 14px;
     transform: rotate(90deg);
     transform-origin: center center;
-    color: #161615;
+    color: rgba(255, 255, 255, 0.945);
     text-decoration: none;
-    font-family: 'PT Sans Narrow', sans-serif;
-    margin-bottom: 115px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 110px;
     margin-left: -55px;
     letter-spacing: 3px;
 }
