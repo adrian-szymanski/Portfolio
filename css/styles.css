@@ -9,11 +9,9 @@ body {
 /* Shape styling */
 
 #parallelogram {
-    margin-left: 680px;
-    width: 1000px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    bottom: 380px;
     opacity: 0%;
     z-index: -1;
     background: #f1d628;
@@ -149,3 +147,60 @@ a {
 	justify-content: center;
     align-content: center;
 }
+
+/*ABOUT*/
+
+.circle {
+    position: relative;
+    margin-left: 1.5%;
+    margin-top: 2.5%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: #f1d628;
+    opacity: 0.6;
+    width: 70px;
+    height: 70px;
+}
+
+.dot, .dot:before, .dot:after {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: #f1d628;
+  }
+  
+  .dot {
+    margin-top: 46%;
+    margin-left: 46%;
+    z-index: 2;
+  }
+
+  .dots {
+      display: block;
+      width: 70px;
+      height: 70px;
+  }
+  
+  .dot:before, .dot:after {
+    content: "";
+  }
+  
+  .dot:before {
+    right: 8px;
+    transition: right .3s ease-out;
+  }
+  
+  .dot:after {
+    left: 8px;
+    transition: left .3s ease-out;
+  }
+  
+  .dots:hover .dot:before {
+    right: -8px;
+  }
+  
+  .dots:hover .dot:after {
+    left: -8px;
+  }
