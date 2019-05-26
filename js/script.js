@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('#topRow, #mainRow, #bottomBar, #copyright, #info, .arrowDown').css('display', 'none').fadeIn(3000);
+    $('#topRow, #mainRow, #bottomBar, #copyright, #info, .arrowDown, .mainContact').css('display', 'none').fadeIn(3000);
   });
 
   $(document).ready(function () {

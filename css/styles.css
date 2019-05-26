@@ -294,7 +294,7 @@ a {
 }
 
 .address {
-    margin-left: -1%;
+    margin-left: -2.5%;
     font-size: 120px;
     text-transform: uppercase;
 }
@@ -311,4 +311,176 @@ a {
 	align-items: flex-start;
     align-content: center;
     transform: rotate(-45deg);
+}
+
+.mailShape {
+    margin-top: -16px;
+    margin-left: -20px;
+    width: 8%;
+    height: 8%;
+    filter: invert(100%);
+    display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+    align-content: center;
+}
+
+/*--------------------Media Query--------------------------*/
+
+
+@media (max-width: 1600px) {
+
+
+    #mainRow {
+        font-size: 140px;
+    }
+
+    .mainWork {
+        margin-top: 90px;
+    }
+
+    .work {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 1540px) {
+
+
+    #parallelogram {
+        margin-top: -45px;
+    }
+
+    #mainRow {
+        font-size: 100px;
+    }
+
+    .number {
+        margin-bottom: 60px;
+        margin-left: -35px;
+    }
+
+    .description {
+        margin-left: 100px;
+    }
+
+    .aboutDescription {
+        font-size: 70px;
+    }
+
+    .mainWork {
+        margin-top: 90px;
+    }
+
+    .work {
+        font-size: 100px;
+    }
+
+    .address {
+        margin-left: -4%;
+    }
+}
+
+@media (max-width: 1024px) {
+
+
+    #parallelogram {
+        margin-top: -57px;
+    }
+
+    #mainRow {
+        font-size: 80px;
+    }
+
+    .number {
+        margin-bottom: 50px;
+        margin-left: -35px;
+    }
+
+    .description {
+        margin-left: 110px;
+    }
+
+    .aboutDescription {
+        font-size: 60px;
+    }
+
+    #info {
+        margin-top: 80%;
+        margin-bottom: 40%;
+    }
+
+    .mainWork {
+        margin-top: 90px;
+    }
+
+    .work {
+        font-size: 100px;
+    }
+
+    .address {
+        margin-left: -4%;
+    }
+}
+
+@media (max-width: 700px) {
+
+
+    #parallelogram {
+        margin-top: -82px;
+    }
+
+    #mainRow {
+        font-size: 40px;
+    }
+
+    .number {
+        margin-bottom: 15px;
+        margin-left: -30px;
+    }
+
+    .circle {
+        margin-top: 6%;
+    }
+
+    .description {
+        margin-left: 25px;
+    }
+
+    .aboutDescription {
+        font-size: 30px;
+    }
+
+    #info {
+        margin-top: 20%;
+        margin-bottom: 40%;
+        margin-left: 25%;
+    }
+
+    .arrowDown {
+        visibility: hidden;
+    }
+
+    .mainWork {
+        margin-top: 50px;
+    }
+
+    .work {
+        font-size: 60px;
+    }
+
+    .address {
+        margin-top: -20%;
+        margin-left: -4%;
+    }
+
+    .contact {
+        margin-left: 8%;
+    }
+
+    .big {
+        font-size: 70px;
+    }
 }
