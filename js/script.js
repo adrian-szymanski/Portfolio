@@ -11,7 +11,7 @@ $(document).ready(function () {
   });
 
   $(document).ready(function () {
-    $('#parallelogram').animate({width: '1210px', height: '130px', top: '410px'}, 2000);
+    $('#parallelogram').animate({width: '70%', height: '10%', top: '410px'}, 2000);
   }); 
 
   $(document).ready(function () {
