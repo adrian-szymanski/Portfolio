@@ -1,9 +1,35 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Fjalla+One');
 
 /* Basic page styling */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #242424;
+}
+
+/* Text content styling (fonts, colors, size) */
+
+h1 {
+    color: rgba(255, 255, 255, 0.945);
+    font-size: 1em;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.945);
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-top: 25px;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.945);
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 /* Shape styling */
@@ -28,28 +54,6 @@ body {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-}
-
-/* Text content styling (fonts, colors, size) */
-
-h1 {
-    color: rgba(255, 255, 255, 0.945);
-    font-size: 1em;
-    font-weight: 800;
-    text-transform: uppercase;
-    font-family: 'PT Sans Narrow', sans-serif;
-}
-
-p {
-    color: rgba(255, 255, 255, 0.945);
-    font-family: 'PT Sans Narrow', sans-serif;
-    margin-top: 25px;
-}
-
-a {
-    color: rgba(255, 255, 255, 0.945);
-    text-decoration: none;
-    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 /* Main container and its content styling */
@@ -78,32 +82,15 @@ a {
     letter-spacing: 3px;
 }
 
-.about {
+.hoverEffect {
     transition: all 0.3s ease;
 }
 
-.about:hover {
+.hoverEffect:hover {
     letter-spacing: 0.1em;
     transition: all 1s ease-out;
 }
 
-.work {
-    transition: all 0.3s ease;
-}
-
-.work:hover {
-    letter-spacing: 0.1em;
-    transition: all 1s ease-out;
-}
-
-.contact {
-    transition: all 0.3s ease;
-}
-
-.contact:hover {
-    letter-spacing: 0.1em;
-    transition: all 1s ease-out;
-}
 
 /* Bottom container styling */
 
@@ -203,4 +190,125 @@ a {
   
   .dots:hover .dot:after {
     left: -8px;
-  }
+}
+
+.description {
+    margin-top: 40px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-content: center;
+    cursor: default;
+}
+
+.aboutDescription {
+    color: rgba(255, 255, 255, 0.945);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 95px;
+    line-height: 50%;
+    text-transform: uppercase;
+}
+
+.leftBar {
+    margin-top: 17%;
+    margin-left: 1.25%;
+    display: inline-block;
+    position: fixed;
+    cursor: default;
+}
+
+.line {
+    display: inline-block;
+    margin-top: 70%;
+    margin-bottom: 70%;
+}
+
+.nameBar {
+    transform: rotate(270deg);
+	transform-origin: center center;
+}
+
+#info {
+    margin-top: 30%;
+    margin-bottom: 20%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-end;
+    align-items: flex-end;
+    cursor: default;
+}
+
+/*WORK*/
+
+.mainWork {
+    margin-top: 120px;
+    margin-left: 30%;
+    display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+    align-content: center;
+}
+
+.work {
+    font-size: 120px;
+    text-transform: uppercase;
+}
+
+.big {
+    font-size: 140px;
+}
+
+.arrow {
+    margin-left: 20px;
+    width: 5%;
+    height: 5%;
+    filter: invert(100%);
+    transition: all 0.3s ease-out;
+    transform: translate(0, 10px);
+
+}
+
+.arrow:hover {
+    transition: all 0.3s ease-in;
+    transform: translate(0, 10px) rotate(270deg);
+}
+
+/*CONTACT*/
+
+.mainContact {
+    margin-top: 120px;
+    margin-left: 30%;
+    display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+    align-content: center;
+    cursor: default;
+}
+
+.address {
+    margin-left: -1%;
+    font-size: 120px;
+    text-transform: uppercase;
+}
+
+.arrowDown {
+    width: 5%;
+    height: 5%;
+    margin-left: 25%;
+    filter: invert(100%);
+    display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+    align-content: center;
+    transform: rotate(-45deg);
+}

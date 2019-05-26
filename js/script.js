@@ -1,17 +1,9 @@
 $(document).ready(function () {
-    $('#topRow').css('display', 'none').fadeIn(3000);
-  });
-  
-  $(document).ready(function () {
-    $('#mainRow').css('display', 'none').fadeIn(3000);
+    $('#topRow, #mainRow, #bottomBar, #copyright, #info, .arrowDown').css('display', 'none').fadeIn(3000);
   });
 
   $(document).ready(function () {
-    $('#bottomBar').css('display', 'none').fadeIn(3000);
-  });
-
-  $(document).ready(function () {
-    $('#copyright').css('display', 'none').fadeIn(3000);
+    $('.description, .mainWork, .circle, .leftBar').css('display', 'none').fadeIn(1500);
   });
 
   $(document).ready(function () {
@@ -25,3 +17,10 @@ $(document).ready(function () {
   $(document).ready(function () {
     $('.circle').animate({left: '10px'}, 1000);
   }); 
+
+  var $container = $('.arrowDown'),
+      $scrollTo = $('#info');
+
+  $container.scrollTop(
+      $scrollTo.offset(10).top - $container.offset(10).top + $container.scrollTop(10)
+  );
