@@ -32,7 +32,7 @@ a {
 
 /* Shape styling */
 
-#parallelogram {
+.parallelogram {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -43,7 +43,7 @@ a {
 
 /* Top container styling */
 
-#topRow {
+.topRow {
     cursor: default;
     margin-top: 50px;
     display: flex;
@@ -56,7 +56,7 @@ a {
 
 /* Main container and its content styling */
 
-#mainRow {
+.mainRow {
     margin-top: 150px;
     display: flex;
 	flex-direction: row;
@@ -86,7 +86,7 @@ a {
 
 /* Bottom container styling */
 
-#bottomBar {
+.bottomBar {
     margin-top: 160px;
     display: flex;
 	flex-direction: row;
@@ -112,7 +112,7 @@ a {
 
 /* Copyright container styling */
 
-#copyright {
+.copyright {
     cursor: default;
     margin-top: 200px;
     display: flex;
@@ -143,39 +143,39 @@ a {
     height: 4px;
     border-radius: 50px;
     background-color: #f1d628;
-  }
+}
   
-  .dot {
+.dot {
     margin-top: 46%;
     margin-left: 46%;
     z-index: 2;
-  }
+}
 
-  .dots {
-      display: block;
-      width: 70px;
-      height: 70px;
-  }
+.dots {
+    display: block;
+    width: 70px;
+    height: 70px;
+}
   
-  .dot:before, .dot:after {
+.dot:before, .dot:after {
     content: "";
-  }
+}
   
-  .dot:before {
+.dot:before {
     right: 8px;
     transition: right .3s ease-out;
-  }
+}
   
-  .dot:after {
+.dot:after {
     left: 8px;
     transition: left .3s ease-out;
-  }
+}
   
-  .dots:hover .dot:before {
+.dots:hover .dot:before {
     right: -8px;
-  }
+}
   
-  .dots:hover .dot:after {
+.dots:hover .dot:after {
     left: -8px;
 }
 
@@ -320,7 +320,7 @@ a {
 @media (max-width: 1600px) {
 
 
-    #mainRow {
+    .mainRow {
         font-size: 140px;
     }
 
@@ -336,11 +336,11 @@ a {
 @media (max-width: 1540px) {
 
 
-    #parallelogram {
+    .parallelogram {
         margin-top: -45px;
     }
 
-    #mainRow {
+    .mainRow {
         font-size: 100px;
     }
 
@@ -373,11 +373,11 @@ a {
 @media (max-width: 1024px) {
 
 
-    #parallelogram {
+    .parallelogram {
         margin-top: -57px;
     }
 
-    #mainRow {
+    .mainRow {
         font-size: 80px;
     }
 
@@ -415,11 +415,11 @@ a {
 @media (max-width: 700px) {
 
 
-    #parallelogram {
+    .parallelogram {
         margin-top: -125px;
     }
 
-    #mainRow {
+    .mainRow {
         font-size: 40px;
     }
 
@@ -440,7 +440,7 @@ a {
         font-size: 30px;
     }
 
-    #info {
+    .info {
         margin-top: 20%;
         margin-bottom: 40%;
         margin-left: 25%;
