@@ -8,6 +8,7 @@ html {
 
 body {
     background-color: #242424;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 /* Text content styling (fonts, colors, size) */
@@ -17,19 +18,16 @@ h1 {
     font-size: 1em;
     font-weight: 800;
     text-transform: uppercase;
-    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 p {
     color: rgba(255, 255, 255, 0.945);
-    font-family: 'PT Sans Narrow', sans-serif;
     margin-top: 25px;
 }
 
 a {
     color: rgba(255, 255, 255, 0.945);
     text-decoration: none;
-    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 /* Shape styling */
@@ -86,12 +84,6 @@ a {
     transition: all 0.3s ease;
 }
 
-.hoverEffect:hover {
-    letter-spacing: 0.1em;
-    transition: all 1s ease-out;
-}
-
-
 /* Bottom container styling */
 
 #bottomBar {
@@ -108,17 +100,12 @@ a {
     transition: all 0.3s ease;
 }
 
-.git:hover {
-    letter-spacing: 0.1em;
-    transition: all 1s ease-out;
-}
-
 .linked {
     margin: 0 0 0 5%;
     transition: all 0.3s ease;
 }
 
-.linked:hover {
+.hoverEffect:hover, .git:hover, .linked:hover {
     letter-spacing: 0.1em;
     transition: all 1s ease-out;
 }
